@@ -11,7 +11,7 @@
 if[$#-ne 2]; then
 
 echo "usage:$0 <region> <resource>"
-echo "example: aws ap-south1 ec2"
+echo "example:./shell_file.sh aws ap-south1 ec2"
 
 exit 1
 fi
