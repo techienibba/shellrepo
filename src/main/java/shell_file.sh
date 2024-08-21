@@ -6,7 +6,7 @@
 #Usage:<Cloud providername> <region> <resource>
 #example: For sake of brevity we will consider aws as the cloud provider -> aws ap-south-1 ec2
 #Resources that are applicable to be queries in aws -> ec2,s3,vpc,cloudformation,cloudfront,route-53,ebs,elb,iam,dynamodb,lambda etc
-
+#Comment to ensure coherence beween local and remote master branch
 #Vallidation to ensure only two arguments are provided
 if[$#-ne 2]; then
 
